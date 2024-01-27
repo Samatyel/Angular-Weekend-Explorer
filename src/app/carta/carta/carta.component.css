@@ -1,0 +1,25 @@
+.carta {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.carta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image {
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    transition: 0.5s;
+}
+
+img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}

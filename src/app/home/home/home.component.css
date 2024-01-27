@@ -1,0 +1,62 @@
+.home {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.home input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.home input:focus {
+    border: 1px solid #3f0675;
+}
+
+.home button {
+    background-color: #3066b3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.home button:hover {
+    background-color: #3f0675;
+
+}
+
+.cartas-pesquisa {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.carta {
+    margin: 10px;
+}

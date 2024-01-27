@@ -1,0 +1,21 @@
+<div class="page">
+    
+    <div class="formLogin">
+        <form>
+            <h1>Login</h1>
+            <div class="email">
+                <label for="email">E-mail</label>
+                <input [(ngModel)]="email" type="email" name="email" placeholder="Digite seu e-mail" autofocus="true" (keyup)="onKey ($event)" />
+            </div>
+            <div class="password">
+                <label for="password">Senha</label>
+                <input [(ngModel)]="senha" type="password" name="password" placeholder="Digite sua Senha" (keyup)="onKey ($event)" />
+            </div>
+            <div class="message-error" *ngIf="erro">Login ou Senha Inválido</div>        
+            
+        </form>
+        <button (click)="entrar ()" value="Acessar" class="btn" > Acessar </button>
+    </div>
+
+    
+</div>

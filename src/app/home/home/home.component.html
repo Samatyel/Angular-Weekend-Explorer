@@ -1,0 +1,16 @@
+<div class="home">
+    <div class="topo">
+        <div class="busca">
+            <input type="text" (keyup)="onKey ($event)">
+            <button (click)="pesquisar ()">pesquisar</button></div>
+    </div>
+    <div class="cartas-pesquisa">
+        <div *ngFor="let carta of cartas"> 
+            <div class="carta" *ngIf="carta.image_uris"> 
+                <a href="/carta/{{carta.id}}">
+                    <img src="{{carta.image_uris ? carta.image_uris.small : ''}}" alt="">  
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
