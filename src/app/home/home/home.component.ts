@@ -8,10 +8,12 @@ import { Component } from '@angular/core';
   imports: [NgFor,NgIf],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
+  
 })
 export class HomeComponent {
   pesquisa:string=""
   cartas:any=[]
+  imagePath = 'assets/banner.png'
 
   constructor(private http:HttpClient){
 

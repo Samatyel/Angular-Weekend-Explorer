@@ -1,3 +1,5 @@
+<div class="app-carta">
+<div class="btn-back"><a href="http://localhost:4200/home">VOLTAR</a></div>
 <div class="carta">
     <div class="image">
         <img src="{{carta.image_uris.large}}" alt="">
@@ -5,8 +7,9 @@
     <div class="detalhes">
         <h3>{{carta.name}}</h3>
         <h5>{{carta.type_line}}</h5>
-        <h5>{{carta.rarity}}</h5>
+        <h5 class="raridade">{{carta.rarity}}</h5>
         <p>{{carta.oracle_text}}</p>
         <small>{{carta.flavor_text}}</small>
     </div>
+</div>
 </div>

@@ -5,14 +5,15 @@
 
 .carta {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
+    background: #ffffff82;
+    width: 800px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 30px;
 }
 
-.image {
-    margin-right: 60px;
-    margin-top: 50px;
-}
 
 img {
     width: 300px;
@@ -22,4 +23,50 @@ img {
 img:hover {
     transition: 0.5s;
     transform: scale(1.05);
+}
+
+
+.detalhes {
+    width: 300px;
+}
+
+h3 {
+    padding: 20px 0px;
+}
+
+h5 {
+    padding: 15px 0px;
+}
+
+.app-carta {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url('/assets/background4.webp') no-repeat fixed;
+    background-color: #181818;
+}
+
+.btn-back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-back a {
+    color: #023047;
+    background: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 4px 4px 0px 0px #bfbfbf;
+    transition: 0.5s;
+}
+
+.btn-back a:hover {
+    box-shadow: -4px -4px 0px 0px #bfbfbf;
+    transition: 0.5s;
 }

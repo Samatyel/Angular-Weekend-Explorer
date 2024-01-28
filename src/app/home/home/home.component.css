@@ -1,12 +1,18 @@
 .home {
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0 auto;
 }
-
+.fundo {
+    margin-top: -30px;
+    background: url('/assets/background4.webp') no-repeat fixed;
+    padding: 30px 0px;
+    background-color: #181818;
+}
 .topo {
     display: flex;
     justify-content: center;
     margin: 30px 0px;
+
 }
 
 button {
@@ -17,7 +23,7 @@ button {
 }
 
 .home input {
-    padding: 15px;
+    padding: 15px 35px;
     font-size: 14px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
@@ -26,7 +32,7 @@ button {
     transition: all linear 160ms;
     outline: none;
 }
-
+  
 
 .home input:focus {
     border: 1px solid #3f0675;
@@ -41,9 +47,9 @@ button {
     transition: all linear 160ms;
     cursor: pointer;
     margin-left: 5px;
-    padding: 15px;
+    padding: 15px 35px;
+    text-transform: uppercase;
     border-radius: 5px;
-
 }
 
 .home button:hover {
@@ -55,8 +61,41 @@ button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background: #1818181c;
+    padding: 10px;
+    border-radius: 20px;
+
 }
 
 .carta {
     margin: 10px;
+}
+.sobre-magic {
+    width: 998px;
+    margin: 0 auto;
+    margin: 30px auto;
+    background: #fffa;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sobre-magic p {
+    line-height: 25px;
+}
+
+.sobre-magic h3 {
+    border-top: 1px solid #e9e9e9;
+    padding: 20px 0px;
+    color: #3066b3;
+    opacity: 0;
+    animation: aparecer 1s ease-in-out forwards;
+}
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
 }
